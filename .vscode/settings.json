@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./python_modules/Python39/site-packages"
+    ]
+}

@@ -1,0 +1,43 @@
+{
+  "name": "nodepoc",
+  "version": "1.0.0",
+  "description": "nodejs",
+  "main": "app.js",
+  "nodemonConfig": {
+    "ignore": ["*.json","*.txt"]
+ },
+  "scripts": {
+    "start": "nodemon app.js",
+    "install": "npip install",
+    "nopenv": "nopenv",
+    "nopy": "nopy",
+    "npip": "npip",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "poc",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-jwt": "^6.1.0",
+    "firebase": "^8.9.1",
+    "firebase-admin": "^9.11.0",
+    "moment": "^2.29.1",
+    "multer": "^1.4.3",
+    "nodemailer": "^6.6.3",
+    "nopy": "^0.2.7",
+    "pdfreader": "^1.2.10"
+  },
+  "python": {
+    "dependencies": {
+     "pdfplumber":"==0.5.28"
+    }
+  }
+
+}
