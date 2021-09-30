@@ -7,7 +7,7 @@
     "ignore": ["*.json","*.txt"]
  },
   "scripts": {
-    "start": "nodemon app.js",
+    "start": "node app.js",
     "install": "npip install",
     "nopenv": "nopenv",
     "nopy": "nopy",
